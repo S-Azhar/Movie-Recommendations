@@ -1,3 +1,116 @@
-body {
-    font-size: 15pt;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #3F51B5;
+  height: 45px;
+  display: flex;
+}
+
+.hamburger {
+  display: flex;
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+
+.Cross {
+  margin-left: 170px;
+}
+
+.sidebarGo {
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+
+.webName {
+  margin: auto 0;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.searchbox {
+  display: flex;
+  margin-top: 10.75px;
+}
+
+input[type="text"] {
+  padding: 6px;
+  margin-bottom: 10.75px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+  width: 150px;
+}
+
+i {
+  color: #FFFFFF
+}
+
+.account {
+  height: 35px;
+  width: 35px;
+  background-color: darkblue;
+  border-radius: 50%;
+  margin: auto;
+  text-align: center;
+  display: flex; /* Updated */
+  align-items: center; /* Updated */
+}
+
+.fa-solid.fa-user {
+  margin: auto; /* To center horizontally */
+}
+
+
+.sidebar {
+  position: absolute;
+  background-color: lightblue;
+  height: 100%;
+  transition: transform 0.3s ease-in;
+}
+
+.main {
+  background-color: lightcyan;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0px;
+}
+
+
+
+
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+
+  /* Adjust styles for smaller screens here */
+
+
+  .webName {
+    font-size: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* Adjust styles for larger screens here */
+
 }
